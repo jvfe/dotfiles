@@ -1,0 +1,49 @@
+{
+    "show_margin": false,
+    "default_project_location": "~/Documentos",
+    "source_with_echo": true,
+    "pdf_previewer": "none",
+    "rmd_chunk_output_inline": false,
+    "wrap_tab_navigation": false,
+    "save_workspace": "never",
+    "reuse_sessions_for_project_links": true,
+    "svn_exe_path": "/home/jvfe",
+    "panes": {
+        "quadrants": [
+            "Source",
+            "TabSet1",
+            "Console",
+            "TabSet2"
+        ],
+        "tabSet1": [
+            "Environment",
+            "History",
+            "Connections",
+            "Build",
+            "VCS",
+            "Tutorial",
+            "Presentation"
+        ],
+        "tabSet2": [
+            "Files",
+            "Plots",
+            "Packages",
+            "Help",
+            "Viewer"
+        ],
+        "console_left_on_top": false,
+        "console_right_on_top": true
+    },
+    "load_workspace": false,
+    "remove_history_duplicates": true,
+    "global_theme": "alternate",
+    "editor_theme": "Dracula",
+    "posix_terminal_shell": "zsh",
+    "jobs_tab_visibility": "shown",
+    "document_author": "João Vitor F Cavalcante",
+    "rmd_viewer_type": "pane",
+    "spelling_dictionary_language": "pt_BR",
+    "real_time_spellchecking": false,
+    "latex_preview_on_cursor_idle": "never",
+    "always_save_history": false
+}
