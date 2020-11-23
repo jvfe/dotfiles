@@ -125,3 +125,5 @@ bindkey '^R' history-incremental-search-backward
 
 # added by travis gem
 [ ! -s /home/jvfe/.travis/travis.sh ] || source /home/jvfe/.travis/travis.sh
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

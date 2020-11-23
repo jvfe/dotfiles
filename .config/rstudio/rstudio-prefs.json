@@ -1,7 +1,6 @@
 {
     "show_margin": false,
-    "default_project_location": "~/Documentos",
-    "source_with_echo": true,
+    "default_project_location": "~/Documentos/bioinfo/pacotes",
     "pdf_previewer": "none",
     "rmd_chunk_output_inline": false,
     "wrap_tab_navigation": false,
