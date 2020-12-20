@@ -1,7 +1,12 @@
 [user]
+
 	name = jvfe
 	email = jvfecav@gmail.com
+
 [color]
+
 	ui = auto
+
 [push]
+
 	followTags = true
