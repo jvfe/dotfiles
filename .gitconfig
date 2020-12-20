@@ -3,10 +3,39 @@
 	name = jvfe
 	email = jvfecav@gmail.com
 
+[core]
+
+	# Use global gitattributes
+	attributesfile = ~/.gitattributes
+
+	# Speed up commands involving untracked files such as `git status`.
+	# https://git-scm.com/docs/git-update-index#_untracked_cache
+	untrackedCache = true
+
+[branch]
+
+	# Show most recently changed branches first.
+	sort = -committerdate
+
+[diff]
+
+	# Detect copies as well as renames.
+	# https://git-scm.com/docs/git-config#Documentation/git-config.txt-diffrenames
+	renames = copies
+
 [color]
 
 	ui = auto
 
+[merge]
+
+	# Include summaries of merged commits in newly created merge commit messages
+	log = true
+
 [push]
 
 	followTags = true
+
+[init]
+
+	defaultBranch = main
