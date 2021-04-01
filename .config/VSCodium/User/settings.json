@@ -1,15 +1,30 @@
 {
     "workbench.startupEditor": "newUntitledFile",
     "window.zoomLevel": 0,
-    "editor.formatOnSave": true,
     "python.formatting.provider": "black",
+    "[javascript]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
     "window.menuBarVisibility": "toggle",
-    "editor.minimap.enabled": false,
-    "workbench.colorTheme": "Abyss",
+    "workbench.colorTheme": "AMOLED",
     "python.dataScience.askForKernelRestart": false,
     "python.dataScience.sendSelectionToInteractiveWindow": true,
     "python.dataScience.alwaysTrustNotebooks": true,
     "editor.mouseWheelZoom": true,
     "editor.fontFamily": "'Fira Code', 'monospace', monospace",
-    "editor.fontLigatures": true
+    "editor.fontLigatures": true,
+    "editor.fontWeight": null,
+    "editor.formatOnSave": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDragAndDrop": false
 }

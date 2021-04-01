@@ -9,7 +9,7 @@
 #umask 022
 # Default programs:
 export EDITOR="vim"
-export TERMINAL="xfce4-terminal"
+export TERMINAL="alacritty"
 export BROWSER="firefox"
 export READER="zathura"
 

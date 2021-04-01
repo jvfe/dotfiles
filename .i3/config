@@ -34,7 +34,7 @@ for_window [class="^.*"] border pixel 2
 new_window 1pixel
 
 # start a terminal
-bindsym $mod+Return exec xfce4-terminal
+bindsym $mod+Return exec alacritty
 
 # kill focused window
 bindsym $mod+q kill
