@@ -181,3 +181,6 @@ bindsym $mod+r mode "resize"
 exec --no-startup-id nitrogen --restore
 exec --no-startup-id synergy
 
+# Calc scratchpad
+for_window [class=alacritty instance="__calc_scratchpad"] floating enable
+bindsym XF86Calculator exec calc_scratchpad
