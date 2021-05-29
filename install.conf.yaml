@@ -13,10 +13,7 @@
     ~/.gitconfig:
     ~/.gitattributes:
     ~/.condarc:
-    ~/.config/picom.conf:
-    ~/.config/i3/config:
-    ~/.config/zathura/zathurarc:
-    ~/.config/rstudio/rstudio-prefs.json:
-    ~/.config/VSCodium/User/:
-      glob: true
-      path: .config/VSCodium/User/*
+    ~/.config/picom.conf: config/picom.conf
+    ~/.config/i3/config: config/i3/config
+    ~/.config/zathura/zathurarc: config/zathura/zathurarc
+    ~/.config/rstudio/rstudio-prefs.json: config/rstudio/rstudio-prefs.json

@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:/usr/local/bin:$HOME/.gem/bin:$PATH:/usr/lib/x86_64-linux-gnu:/usr/lib/pkgconfig
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/jvfe/.oh-my-zsh"
@@ -33,7 +33,7 @@ ZSH_THEME="jbergantine"
 # export UPDATE_ZSH_DAYS=13
 
 # Uncomment the following line if pasting URLs and other text is messed up.
-# DISABLE_MAGIC_FUNCTIONS=true
+# DISABLE_MAGIC_FUNCTIONS="true"
 
 # Uncomment the following line to disable colors in ls.
 # DISABLE_LS_COLORS="true"
@@ -45,6 +45,8 @@ ZSH_THEME="jbergantine"
 # ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
+# Caution: this setting can cause issues with multiline prompts (zsh 5.7.1 and newer seem to work)
+# See https://github.com/ohmyzsh/ohmyzsh/issues/5765
 # COMPLETION_WAITING_DOTS="true"
 
 # Uncomment the following line if you want to disable marking untracked files
@@ -96,10 +98,15 @@ source $ZSH/oh-my-zsh.sh
 #
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
-# 
+# alias ohmyzsh="mate ~/.oh-my-zsh"
 #
-# Anaconda
-export PATH="$PATH:$HOME/miniconda3/bin"
+# vi mode
+bindkey -v
+export KEYTIMEOUT=1
+
+bindkey -v
+bindkey '^R' history-incremental-search-backward
+source /home/jvfe/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
@@ -116,21 +123,10 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
-# vi mode
-bindkey -v
-export KEYTIMEOUT=1
-
-bindkey -v
-bindkey '^R' history-incremental-search-backward
-
-# added by travis gem
-[ ! -s /home/jvfe/.travis/travis.sh ] || source /home/jvfe/.travis/travis.sh
-
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
-
 # nvm
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 nvm use node; clear
+
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

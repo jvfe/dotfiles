@@ -22,6 +22,7 @@ set timeoutlen=1000 ttimeoutlen=0
 	syntax on
 	set encoding=utf-8
 	set number relativenumber
+	set clipboard=unnamed
 " Enable autocompletion:
 	set wildmode=longest,list,full
 " Goyo plugin makes text more readable when writing prose:
