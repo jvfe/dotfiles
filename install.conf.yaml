@@ -17,3 +17,4 @@
     ~/.config/i3/config: config/i3/config
     ~/.config/zathura/zathurarc: config/zathura/zathurarc
     ~/.config/rstudio/rstudio-prefs.json: config/rstudio/rstudio-prefs.json
+    ~/.config/VSCodium/User/settings.json: config/VSCodium/User/settings.json
