@@ -13,6 +13,7 @@
     ~/.gitconfig:
     ~/.gitattributes:
     ~/.condarc:
+    ~/.Rprofile:
     ~/.config/picom.conf: config/picom.conf
     ~/.config/i3/config: config/i3/config
     ~/.config/zathura/zathurarc: config/zathura/zathurarc
