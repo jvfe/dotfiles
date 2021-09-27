@@ -23,10 +23,14 @@
     "python.dataScience.askForKernelRestart": false,
     "python.dataScience.sendSelectionToInteractiveWindow": true,
     "python.dataScience.alwaysTrustNotebooks": true,
+    "vim.handleKeys": {
+    "<C-c>": false,
+    "<C-v>": false
+    },
     "editor.mouseWheelZoom": true,
     "editor.fontFamily": "'Fira Code', 'monospace', monospace",
     "editor.fontLigatures": true,
-    "editor.fontWeight": null,
+    "editor.fontWeight": "normal",
     "editor.formatOnSave": true,
     "javascript.updateImportsOnFileMove.enabled": "always",
     "explorer.confirmDragAndDrop": false,
