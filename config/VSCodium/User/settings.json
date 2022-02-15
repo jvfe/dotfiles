@@ -1,6 +1,5 @@
 {
     "workbench.startupEditor": "newUntitledFile",
-    "window.zoomLevel": 0,
     "python.formatting.provider": "black",
     "[javascript]": {
         "editor.formatOnSave": true,
@@ -9,8 +8,11 @@
     "[markdown]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "[html]": {
+    "[handlebars]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
     },
     "[vue]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -24,6 +26,8 @@
     "python.dataScience.sendSelectionToInteractiveWindow": true,
     "python.dataScience.alwaysTrustNotebooks": true,
     "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-x>": false,
     "<C-c>": false,
     "<C-v>": false
     },
@@ -31,12 +35,16 @@
     "editor.fontFamily": "'Fira Code', 'monospace', monospace",
     "editor.fontLigatures": true,
     "editor.fontWeight": "normal",
-    "editor.formatOnSave": true,
     "javascript.updateImportsOnFileMove.enabled": "always",
     "explorer.confirmDragAndDrop": false,
     "terminal.integrated.inheritEnv": false,
     "workbench.editor.untitled.hint": "hidden",
     "editor.lineNumbers": "relative",
     "editor.acceptSuggestionOnCommitCharacter": false,
-    "html.autoClosingTags": false
+    "html.autoClosingTags": false,
+    "jupyter.askForKernelRestart": false,
+    "editor.formatOnSave": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active"
 }
