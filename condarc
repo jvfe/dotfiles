@@ -1,8 +1,8 @@
 ssl_verify: true
 channels:
-  - salilab
   - conda-forge
   - bioconda
   - defaults
+  - salilab
 auto_activate_base: false
 restore_free_channel: false
