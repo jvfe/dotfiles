@@ -106,7 +106,6 @@ export KEYTIMEOUT=1
 
 bindkey -v
 bindkey '^R' history-incremental-search-backward
-source /home/jvfe/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
@@ -129,4 +128,5 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 nvm use node; clear
 
 
+FZF_PATH=~/.fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
