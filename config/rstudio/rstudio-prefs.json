@@ -36,7 +36,7 @@
     },
     "load_workspace": false,
     "remove_history_duplicates": true,
-    "editor_theme": "Horizon Dark {rsthemes}",
+    "editor_theme": "One Dark {rsthemes}",
     "posix_terminal_shell": "zsh",
     "jobs_tab_visibility": "shown",
     "document_author": "João Vitor F Cavalcante",
