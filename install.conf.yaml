@@ -20,3 +20,5 @@
     ~/.config/rstudio/rstudio-prefs.json: config/rstudio/rstudio-prefs.json
     ~/.config/VSCodium/User/settings.json: config/VSCodium/User/settings.json
     ~/.config/alacritty/alacritty.toml: config/alacritty/alacritty.toml
+    ~/.config/nvim:
+      path: config/nvim
