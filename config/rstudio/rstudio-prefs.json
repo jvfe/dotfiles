@@ -53,5 +53,6 @@
     "strip_trailing_whitespace": true,
     "auto_expand_error_tracebacks": true,
     "warn_variable_defined_but_not_used": true,
-    "default_encoding": "UTF-8"
+    "default_encoding": "UTF-8",
+    "insert_native_pipe_operator": true
 }
