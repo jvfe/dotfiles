@@ -58,14 +58,14 @@ bindsym $mod+q kill
 # start dmenu (a program launcher)
 bindsym $mod+d exec --no-startup-id dmenu_run
 
-# block screen
-bindsym $mod+x exec --no-startup-id i3lock -e -f -c 1d2021 
-
 # start firefox
 bindsym $mod+w exec firefox
 
 # start telegram
-bindsym $mod+m exec ~/Telegram/Telegram
+bindsym $mod+m exec .local/Telegram/Telegram
+
+# Start thunar
+bindsym $mod+z exec thunar
 
 # Print screen
 bindsym Print exec flameshot
