@@ -1,50 +1,50 @@
 {
-    "workbench.startupEditor": "newUntitledFile",
-    "python.formatting.provider": "black",
-    "[javascript]": {
-        "editor.formatOnSave": true,
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[markdown]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[handlebars]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
-    },
-    "[vue]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "emmet.includeLanguages": {
-        "javascript": "javascriptreact"
-    },
-    "window.menuBarVisibility": "toggle",
-    "workbench.colorTheme": "AMOLED",
-    "python.dataScience.askForKernelRestart": false,
-    "python.dataScience.sendSelectionToInteractiveWindow": true,
-    "python.dataScience.alwaysTrustNotebooks": true,
-    "vim.handleKeys": {
+  "workbench.startupEditor": "newUntitledFile",
+  "python.formatting.provider": "black",
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[handlebars]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "window.menuBarVisibility": "toggle",
+  "workbench.colorTheme": "Gruvbox Dark Hard",
+  "python.dataScience.askForKernelRestart": false,
+  "python.dataScience.sendSelectionToInteractiveWindow": true,
+  "python.dataScience.alwaysTrustNotebooks": true,
+  "vim.handleKeys": {
     "<C-a>": false,
     "<C-x>": false,
     "<C-c>": false,
     "<C-v>": false
-    },
-    "editor.mouseWheelZoom": true,
-    "editor.fontFamily": "'Fira Code', 'monospace', monospace",
-    "editor.fontLigatures": true,
-    "editor.fontWeight": "normal",
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "explorer.confirmDragAndDrop": false,
-    "terminal.integrated.inheritEnv": false,
-    "workbench.editor.untitled.hint": "hidden",
-    "editor.lineNumbers": "relative",
-    "editor.acceptSuggestionOnCommitCharacter": false,
-    "html.autoClosingTags": false,
-    "jupyter.askForKernelRestart": false,
-    "editor.formatOnSave": true,
-    "diffEditor.ignoreTrimWhitespace": false,
-    "editor.bracketPairColorization.enabled": true,
-    "editor.guides.bracketPairs": "active"
+  },
+  "editor.mouseWheelZoom": true,
+  "editor.fontFamily": "'Fira Code', 'monospace', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "normal",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDragAndDrop": false,
+  "terminal.integrated.inheritEnv": false,
+  "workbench.editor.untitled.hint": "hidden",
+  "editor.lineNumbers": "relative",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "html.autoClosingTags": false,
+  "jupyter.askForKernelRestart": false,
+  "editor.formatOnSave": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active"
 }
