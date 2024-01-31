@@ -1,5 +1,4 @@
 {
-    "show_margin": false,
     "default_project_location": "~/dev",
     "pdf_previewer": "none",
     "rmd_chunk_output_inline": false,
@@ -36,7 +35,7 @@
     },
     "load_workspace": false,
     "remove_history_duplicates": true,
-    "editor_theme": "One Dark {rsthemes}",
+    "editor_theme": "gruvboxr",
     "posix_terminal_shell": "zsh",
     "jobs_tab_visibility": "shown",
     "document_author": "João Vitor F Cavalcante",
@@ -54,5 +53,9 @@
     "auto_expand_error_tracebacks": true,
     "warn_variable_defined_but_not_used": true,
     "default_encoding": "UTF-8",
-    "insert_native_pipe_operator": true
+    "insert_native_pipe_operator": true,
+    "highlight_selected_line": true,
+    "highlight_r_function_calls": true,
+    "indent_guides": "gray",
+    "syntax_color_console": true
 }
