@@ -24,3 +24,4 @@
     ~/.config/alacritty/alacritty.toml: config/alacritty/alacritty.toml
     ~/.config/nvim:
       path: config/nvim
+    ~/.tmux/plugins/tmuxifier/layouts: config/tmuxifier/layouts
