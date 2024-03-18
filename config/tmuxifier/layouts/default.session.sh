@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # Set a custom session root path. Default is `$HOME`.
 # Must be called before `initialize_session`.
 #session_root "~/Projects/default"
@@ -8,8 +9,8 @@ if initialize_session "default"; then
 
   # Create a new window inline within session layout definition.
   new_window "default"
-  split_h 40
-  split_v 50
+  split_h 40%
+  split_v 50%
   run_cmd "htop"
   select_pane 0
 
