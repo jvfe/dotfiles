@@ -36,3 +36,4 @@ if [ -d "$HOME/.local/bin" ] ; then
 fi
 
 . "$HOME/.cargo/env"
+. "$HOME/.rye/env"
