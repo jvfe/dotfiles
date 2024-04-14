@@ -12,7 +12,7 @@ if initialize_session "default"; then
   split_h 40%
   split_v 50%
   run_cmd "htop"
-  select_pane 0
+  select_pane 1
 
 fi
 
