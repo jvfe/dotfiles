@@ -38,7 +38,6 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "explorer.confirmDragAndDrop": false,
   "terminal.integrated.inheritEnv": false,
-  "workbench.editor.untitled.hint": "hidden",
   "editor.lineNumbers": "relative",
   "editor.acceptSuggestionOnCommitCharacter": false,
   "html.autoClosingTags": false,
@@ -46,5 +45,6 @@
   "editor.formatOnSave": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.bracketPairColorization.enabled": true,
-  "editor.guides.bracketPairs": "active"
+  "editor.guides.bracketPairs": "active",
+  "workbench.editor.empty.hint": "hidden"
 }
