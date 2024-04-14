@@ -20,7 +20,7 @@ return require('packer').startup(function(use)
   use('theprimeagen/harpoon')
   use('mbbill/undotree')
   use('tpope/vim-fugitive')
-  use('LukeGoodsell/nextflow-vim')
+  use('jvfe/nextflow-vim')
   
   use("williamboman/mason.nvim")
   use("onsails/lspkind-nvim")

@@ -152,7 +152,7 @@ _G.packer_plugins = {
   ["nextflow-vim"] = {
     loaded = true,
     path = "/home/jvfe/.local/share/nvim/site/pack/packer/start/nextflow-vim",
-    url = "https://github.com/LukeGoodsell/nextflow-vim"
+    url = "https://github.com/jvfe/nextflow-vim"
   },
   ["nvim-cmp"] = {
     loaded = true,
