@@ -29,7 +29,7 @@
 	ui = auto
 
 [merge]
-    tool = nvimdiff1
+    tool = nvimdiff2
 
 	# Include summaries of merged commits in newly created merge commit messages
 	log = true
