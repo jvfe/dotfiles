@@ -53,7 +53,12 @@ return require('packer').startup(function(use)
   use('ThePrimeagen/vim-be-good')
   
   -- file tree
-  use('nvim-tree/nvim-tree.lua')
+  use({
+    "stevearc/oil.nvim",
+    config = function()
+      require("oil").setup()
+    end,
+  })
   use('nvim-tree/nvim-web-devicons')
   use {
       'nvim-lualine/lualine.nvim',
