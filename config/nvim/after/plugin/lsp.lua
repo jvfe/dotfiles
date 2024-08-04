@@ -19,7 +19,7 @@ end)
 -- read this: https://github.com/VonHeikemen/lsp-zero.nvim/blob/v3.x/doc/md/guides/integrate-with-mason-nvim.md
 require('mason').setup({})
 require('mason-lspconfig').setup({
-	ensure_installed = {'pyright', 'r_language_server'},
+	ensure_installed = {'pyright', 'r_language_server', 'bashls'},
 	handlers = {
 		lsp_zero.default_setup,
 	}
@@ -27,6 +27,7 @@ require('mason-lspconfig').setup({
 
 require'lspconfig'.pyright.setup{}
 require'lspconfig'.r_language_server.setup{}
+require'lspconfig'.bashls.setup{}
 
 local cmp = require('cmp')
 local cmp_select = {behavior = cmp.SelectBehavior.Select}
