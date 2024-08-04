@@ -48,7 +48,6 @@
     "initial_working_directory": "~/dev",
     "editor_keybindings": "vim",
     "rainbow_parentheses": true,
-    "source_with_echo": true,
     "strip_trailing_whitespace": true,
     "auto_expand_error_tracebacks": true,
     "warn_variable_defined_but_not_used": true,
